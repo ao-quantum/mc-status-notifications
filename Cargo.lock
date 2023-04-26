@@ -836,7 +836,6 @@ dependencies = [
 name = "mc-status-notifications"
 version = "0.1.0"
 dependencies = [
- "naive-timer",
  "notify-rust",
  "reqwest",
  "serde",
@@ -876,12 +875,6 @@ dependencies = [
  "wasi 0.11.0+wasi-snapshot-preview1",
  "windows-sys 0.45.0",
 ]
-
-[[package]]
-name = "naive-timer"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "034a0ad7deebf0c2abcf2435950a6666c3c15ea9d8fad0c0f48efa8a7f843fed"
 
 [[package]]
 name = "native-tls"
